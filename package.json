@@ -1,9 +1,9 @@
 {
-  "name": "learn-express-mongoo",
+  "name": "learn-express-mongo",
   "version": "1.0.0",
   "description": "Some description of the app",
   "main": "app.js",
-  "repository": "https://github.com/anggadarkprince/learn-express-mongoo.git",
+  "repository": "https://github.com/anggadarkprince/learn-express-mongo.git",
   "scripts": {
     "start": "PORT=3000 node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
