@@ -5,7 +5,8 @@
   "main": "app.js",
   "repository": "https://github.com/anggadarkprince/learn-express-mongo.git",
   "scripts": {
-    "start": "PORT=3000 node index.js",
+    "start": "PORT=3000 nodemon index.js",
+    "mongo-start": "./mongod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Angga Ari Wijaya",
@@ -14,5 +15,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.3.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
   }
 }
